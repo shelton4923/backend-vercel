@@ -134,8 +134,9 @@ app.get('/api/transactions/:walletName', async (req, res) => {
     }
 });
 
-// --- Start Server ---
+// --- 4. SERVER START ---
+// No changes here
 const PORT = 5000;
 app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });
